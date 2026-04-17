@@ -1,0 +1,79 @@
+        
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-image: url("med.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+}
+
+table.form-container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.label-cell {
+    text-align: right;
+    width: 200px;
+}
+
+input[type="text"], input[type="password"], input[type="date"], textarea {
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-row {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.inline-label {
+    width: 80px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 20px;
+    margin: 5px;
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    }
+
+#header h1 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+#reviewArea {
+    display: none; 
+    margin-top: 20px;
+}
+
+.error-text {
+    font-weight: bold;
+    font-size: small;
+    color: red;
+    display: inline-block;
+}
+
+.error-text:empty {
+    display: none;
+}
