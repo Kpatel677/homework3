@@ -269,24 +269,6 @@ function checkEmail() {
     return true;
 }
 
-function checkPhone() {
-    const phone = document.getElementById('phone');
-    const error = document.getElementById('phone-error');
-    
-    if (phone.value.lenght == 0){
-        error.textContent = "Phone is required."
-        return false;
-    }
-
-    if (phone.value.length !== 12 || !phone.value.match(/^\d{3}-\d{3}-\d{4}$/)) {
-        error.textContent = "Phone number must be 10 digits and in 000-000-0000 format.";
-        return false;
-    }
-    
-    error.textContent = "";
-    return true;
-}
-
 function checkAddress1(){
     const address = document.getElementById('addr1');
     const error = document.getElementById('address1-error');
